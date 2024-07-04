@@ -1,2 +1,7 @@
+.gitignore
 .DS_Store
 .ipynb_checkpoints
+requirements.txt
+utils/__pycache__/
+utils/transforms.py
+notebooks/exp_0.ipynb
