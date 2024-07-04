@@ -1,2 +1,9 @@
+.gitignore
 .DS_Store
 .ipynb_checkpoints
+requirements.txt
+utils/__pycache__/
+utils/transforms.py
+models/__pycache__/dataset.cpython-39.pyc
+models/__pycache__/model.cpython-39.pyc
+models/unet_model.pth
