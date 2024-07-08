@@ -1,28 +1,5 @@
 # Иерархическая семантическая сегментация изображений
 
-## структура проекта:
-
-project/
-├── data/
-│   ├── JPEGImages/
-│   ├── gt_masks/
-│   ├── train.txt
-│   └── val.txt
-├── models/
-│   ├── dataset.py
-│   └── model.py
-│   └── unet_model.pth
-├── notebooks/
-│   └── UNet_experiment.ipynb
-│   └── Previev_images_and_masks.ipynb
-├── utils/
-│   ├── data.py
-│   ├── model.py
-│   ├── train.py
-│   └── utils.py
-├── requirements.txt
-└── README.md
-
 Этот проект реализует иерархическую семантическую сегментацию изображений с использованием нейронной сети U-Net. Модель обучается на датасете Pascal-Part и способна сегментировать изображения на следующие классы:
 
 * background

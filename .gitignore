@@ -1,8 +1,1 @@
-.gitignore
-.DS_Store
-.ipynb_checkpoints
-requirements.txt
-notebooks/exp_0.ipynb
-models/__pycache__/
-models/unet_model.pth
-utils/__pycache__/
+
