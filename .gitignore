@@ -1,2 +1,4 @@
 notebooks/.ipynb_checkpoints/
 .DS_Store
+models/__pycache__/
+utils/__pycache__/
