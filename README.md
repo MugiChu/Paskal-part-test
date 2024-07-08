@@ -13,6 +13,31 @@
         * low_leg
         * up_leg
 
+## Структура проекта
+```
+Paskal-part-test/
+│
+├── data/
+│   ├── JPEGImages/
+│   └── gt_masks/
+│
+├── models/
+│   ├── dataset.py
+│   ├── model.py
+│   └── transforms.py
+│
+├── notebooks/
+│   ├── train.ipynb
+│   └── visualize.ipynb
+│
+├── utils/
+│   └── transforms.py
+│ 
+├── .gitignore
+├── README.md
+└── requirements.txt
+
+```
 ## Среда
 Для создания среды conda с необходимыми пакетами используйте следующую команду:
 ```bash
